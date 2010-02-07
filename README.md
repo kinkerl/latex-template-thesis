@@ -25,8 +25,9 @@ bezogen werden. Doku siehe <http://tug.ctan.org/tex-archive/macros/latex/
 contrib/glossaries/glossaries-manual.html>
 
 Zum Übersetzen sind in der Regel folgende Durchläufe nötig:
- #   latex arbeit
- #   bibtex arbeit (nur wenn schon Zitate im Text vorhanden sind)
- #   makeglossaries arbeit
- #   latex arbeit
- #   latex arbeit (damit Referenzen und Verzeichnisse stimmen)
+
+ 1.   latex arbeit
+ 2.   bibtex arbeit (nur wenn schon Zitate im Text vorhanden sind)
+ 3.   makeglossaries arbeit
+ 4.   latex arbeit
+ 5.   latex arbeit (damit Referenzen und Verzeichnisse stimmen)
